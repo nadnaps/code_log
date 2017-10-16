@@ -5,16 +5,17 @@
 - Cartesian box with inflow-outflow boundary conditions and no-slip / free-slip walls. 
 - Parallelised in the streamwise direction.
 - Provision for multiple deformable bodies interacting with each other.
-- *[to add] Fadlun forcing*
+- *[to test] Fadlun forcing*
 
 [ **Cartesian - Doubly Periodic** ] [ **mlsibm_cart** ] [[github](https://github.com/nadnaps/mlsibm_cart)]: 
 
 - Cartesian box, doubly periodic in two directions with no-slip / free-slip walls in the third direction. 
 - Parallelised in the wall-normal direction.
 - Provision for multiple deformable bodies interacting with each other and can also move in periodic directions.
-- *[to add] Fadlun forcing*
+- *[to test] periodicity for immersed bodies (almost done)
+- *[to test] Fadlun forcing*
 
-[ **Cartesian - HIT** ] [ **mlsibm_hit** ] [[github](https://github.com/nadnaps/mlsibm_hit)]:
+[ **Cartesian - HIT** ] [ **mlsibm_hit** ] [[github](https://github.com/nadnaps/mls_hit)]:
 
 - Triply periodic box with homogeneous isotropic forcing in the fluid phase. 
 - Multiple deforming bodies interacting with each other. 
@@ -24,6 +25,7 @@
 
 - Cartesian box, doubly periodic in two directions with no-slip / free-slip walls in the third direction.
 - Scalar transport on a refined grid (multiple resolution strategy)
+- For heat and mass transfer with immersed bodies
 
 [ **Cylindrical - Taylor Couette** ] [ **mlsibm_tc** ]: 
 
